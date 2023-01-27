@@ -90,8 +90,8 @@ router.get("/api/v1/dashboard/home", (req, res) => {
         period_type: "ISFP",
         description: "월경타입 - 지옥의 활화산",
         period_info: {
-          cycle_length: 0,
-          period_length: 0,
+          cycle_length: 28,
+          period_length: 5,
         },
       },
     },
