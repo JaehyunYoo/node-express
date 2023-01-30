@@ -19,7 +19,7 @@ router.get("/api/v1/dashboard/home", (req, res) => {
                 "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/event_banner_1.png",
               link: "http://bit.ly/3WiA9DM",
             },
-
+  
             {
               image_url:
                 "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/event_banner_2.png",
@@ -36,28 +36,28 @@ router.get("/api/v1/dashboard/home", (req, res) => {
               name: "브랜드 이름 한 줄",
               description: "상품명 들어가는 영역\n최대 두줄까지 노출",
               image_url:
-                "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/product01.png",
+                "https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/yAezrmd21jNOGeZYpsvX/pub/6s5nJIQI5T8sGExGn0XQ.png",
               link: "http://bit.ly/3WiA9DM",
             },
             {
               name: "브랜드 이름 한 줄",
               description: "상품명 들어가는 영역\n최대 두줄까지 노출",
               image_url:
-                "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/product02.png",
+                "https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/yAezrmd21jNOGeZYpsvX/pub/VTStKt2zvtl6jKe9cDlb.png",
               link: "http://bit.ly/3WiA9DM",
             },
             {
               name: "브랜드 이름 한 줄",
               description: "상품명 들어가는 영역\n최대 두줄까지 노출",
               image_url:
-                "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/product02.png",
+                "https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/yAezrmd21jNOGeZYpsvX/pub/twJOwCEmoppvfxLwdcWY.png",
               link: "http://bit.ly/3WiA9DM",
             },
             {
               name: "브랜드 이름 한 줄",
               description: "상품명 들어가는 영역\n최대 두줄까지 노출",
               image_url:
-                "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/product01.png",
+                "https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/yAezrmd21jNOGeZYpsvX/pub/nZ6fQNvjahuExYAASa3G.png",
               link: "http://bit.ly/3WiA9DM",
             },
           ],
@@ -83,9 +83,8 @@ router.get("/api/v1/dashboard/home", (req, res) => {
       period: {
         period_title: "미뤄진 지, 15일 째",
         period_status_image_url:
-          "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/main_graph_pms.png",
-        period_message:
-          "월경통이 심하다면, \n커피 대신 따뜻한 차 한 잔 어때요?",
+          "https://flutterappimage.s3.ap-northeast-2.amazonaws.com/test/test.riv",
+        period_message: "월경통이 심하다면, \n커피 대신 따뜻한 차 한 잔 어때요?",
         pregnancy_possibility: "낮은날",
         period_type: "ISFP",
         description: "월경타입 - 지옥의 활화산",
